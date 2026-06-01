@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #0f172a;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  
+  --column-bg: rgba(30, 41, 59, 0.7);
+  --column-border: rgba(255, 255, 255, 0.1);
+  
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-hover: rgba(255, 255, 255, 0.1);
+  
+  --accent-1: #ec4899; /* Vibrant Pink */
+  --accent-2: #8b5cf6; /* Vibrant Purple */
+  --accent-3: #0ea5e9; /* Vibrant Blue */
+  --accent-4: #10b981; /* Vibrant Green */
+  
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glass-blur: blur(12px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  /* Add a vibrant, dynamic background gradient */
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(236, 72, 153, 0.15), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.15), transparent 25%);
+  background-attachment: fixed;
+}
